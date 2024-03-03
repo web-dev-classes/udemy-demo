@@ -34,8 +34,6 @@ $ yarn add udemy-demo
 
 ## Step by Step Instructions and Checklist
 
-- [ ] Update description in `lib/udemy-demo/package.json`
-- [ ] Update Repo Stats by visiting and setting up [repobeats](https://repobeats.axiom.co/)
 - [ ] Create your library and update examples
 - [ ] Update README
 - [ ] Setup GitHub pages to deploy docs
@@ -101,7 +99,7 @@ Learn more about the power of Turborepo:
 
 Want hands-on course for getting started with Turborepo? Check out [React and Next.js with TypeScript](https://mayank-chaudhari.vercel.app/courses/react-and-next-js-with-typescript) and [The Game of Chess with Next.js, React and TypeScrypt](https://www.udemy.com/course/game-of-chess-with-nextjs-react-and-typescrypt/?referralCode=851A28F10B254A8523FE)
 
-![Repo Stats](https://repobeats.axiom.co/api/embed/2ef1a24385037998386148afe5a98ded6006f410.svg "Repobeats analytics image")
+![Repo stats](https://repobeats.axiom.co/api/embed/3bf1f5016b8c32895a8feff80058d6183f498f52.svg "Repobeats analytics image")
 
 ## License
 

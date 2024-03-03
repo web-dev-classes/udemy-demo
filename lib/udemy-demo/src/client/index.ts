@@ -6,4 +6,3 @@
  * */
 
 // client component exports
-export * from "./star-me";
