@@ -1,24 +1,24 @@
 {
   "scope": "Workspace",
   "tasks": {
-    "task-s4lEpiwWC2i80_zfUhI5G": {
-      "id": "task-s4lEpiwWC2i80_zfUhI5G",
-      "description": "Move to nthul",
-      "columnId": "column-todo"
+    "YjTQGfnTkIkckOvuwTPpq": {
+      "id": "YjTQGfnTkIkckOvuwTPpq",
+      "description": "pnpm i",
+      "columnId": "column-doing"
     }
   },
   "columns": [
     {
       "id": "column-todo",
       "title": "To do",
-      "tasksIds": [
-        "task-s4lEpiwWC2i80_zfUhI5G"
-      ]
+      "tasksIds": []
     },
     {
       "id": "column-doing",
       "title": "Doing",
-      "tasksIds": []
+      "tasksIds": [
+        "YjTQGfnTkIkckOvuwTPpq"
+      ]
     },
     {
       "id": "column-done",
