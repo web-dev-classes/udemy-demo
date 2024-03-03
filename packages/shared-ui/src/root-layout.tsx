@@ -26,7 +26,7 @@ export function SharedRootLayout({ children, className = "", ...props }: SharedR
       <Footer />
       <ForkMe
         bgColor="var(--text-color)"
-        gitHubUrl="https://github.com/react18-tools/turborepo-template"
+        gitHubUrl="https://github.com/web-dev-classes/udemy-demo"
         textColor="var(--bg-color)"
       />
     </>
