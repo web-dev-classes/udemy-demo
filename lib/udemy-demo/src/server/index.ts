@@ -5,4 +5,5 @@
  * */
 
 // server component exports
+export * from "./udemy-demo";
 export * from "./fork-me";
