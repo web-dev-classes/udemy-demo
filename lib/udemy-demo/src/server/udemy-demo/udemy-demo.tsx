@@ -11,7 +11,7 @@ interface UdemyDemoProps {
 export function UdemyDemo({ children }: UdemyDemoProps) {
 	return (
 		<div>
-			<h1 data-testid="udemy-demo-h1">udemy demo</h1>
+			<h1 data-testid="udemy-demo-h1">Udemy Demo Component</h1>
 			{children}
 		</div>
 	);

@@ -34,66 +34,7 @@ $ yarn add udemy-demo
 
 ## Step by Step Instructions and Checklist
 
-- [ ] Create your library and update examples
-- [ ] Update README
-- [ ] Setup GitHub pages to deploy docs
-  - [ ] Go to [repo settings](https://github.com/web-dev-classes/udemy-demo/settings/pages) -> pages (On left panel); Select deploy from a branch; Then Select `main` and `/docs`
-- [ ] Push your changes/Create PR and see your library being automatically tested and published
 - [ ] Optionally deploy your example(s) to Vercel.
-- [ ] You are most welcome to star this template, contribute, and/or sponsor the `terbo-repo-template` project or my other open-source work
-
-## What's inside?
-
-### Utilities
-
-This Turborepo template includes pre-configured tools:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-- Plop based code generator for scaffolding new components
-- Automatically rebrand this template to match your repo name
-
-### Apps and Packages
-
-This Turborepo includes the following packages/examples/lib:
-
-- `nextjs`: a [Next.js](https://nextjs.org/) app
-- `vite`: a [Vite.js](https://vitest.dev) app
-- `fork-me`: a React component library shared by both `Next.js` and `Vite` examples
-- `eslint-config-custom`: ESLint configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/example is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd udemy-demo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd udemy-demo
-pnpm dev
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
 
 ### 🤩 Don't forger to star [this repo](https://github.com/web-dev-classes/udemy-demo)!
 
