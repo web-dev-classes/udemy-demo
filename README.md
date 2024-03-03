@@ -1,40 +1,8 @@
 # udemy-demo
 
-[![test](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml/badge.svg)](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/aa896ec14c570f3bb274/maintainability)](https://codeclimate.com/github/web-dev-classes/udemy-demo/maintainability) [![codecov](https://codecov.io/gh/web-dev-classes/udemy-demo/graph/badge.svg)](https://codecov.io/gh/web-dev-classes/udemy-demo) [![Version](https://img.shields.io/npm/v/udemy-demo.svg?colorB=green)](https://www.npmjs.com/package/udemy-demo) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/dt/udemy-demo.svg)](https://www.npmjs.com/package/udemy-demo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/udemy-demo) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![test](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml/badge.svg)](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/41e19acc440d24fc498e/maintainability)](https://codeclimate.com/github/web-dev-classes/udemy-demo/maintainability) [![codecov](https://codecov.io/gh/web-dev-classes/udemy-demo/graph/badge.svg)](https://codecov.io/gh/web-dev-classes/udemy-demo) [![Version](https://img.shields.io/npm/v/udemy-demo.svg?colorB=green)](https://www.npmjs.com/package/udemy-demo) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/dt/udemy-demo.svg)](https://www.npmjs.com/package/udemy-demo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/udemy-demo) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 ## Features
-
-This template offers following pre-configured features. Additionally, your repo will automatically be rebranded with help of workflow and post install scripts.
-
-✅ Monorepo powered by turbo repo to build, test and deploy your library
-
-✅ Next.js, Vite and Remix examples to demonstrate how your library can be used (Feel free to remove Remix as it is still unstable when it comes to monorepo setup and importing from folders)
-
-✅ Examples pre-configured to use Light/Dark theme according to user preference
-
-✅ The examples provided are ready to be deployed to Vercel
-
-✅ Typedoc setup to automatically create documentation for your library based on tsdoc comments
-
-✅ Code of Conduct and contributing files that you can always update
-
-✅ Prettier and linter configured as per the modern best practices (Feel free to add your flavour)
-
-✅ Recommended VSCode extensions - Prettier and [Kanban board](https://github.com/mayank1513/vscode-extension-trello-kanban-board) to auto-format your code and manage your project priorities right within your IDE
-
-✅ Powerful code generators - try yarn turbo gen
-
-✅ Test setup with Vitest - A modern and fast testing framework supporting Jest like APIs
-
-✅ Workflows to automate running tests on every pull-request or code push events
-
-✅ Workflow to automatically publish and create a GitHub release when you update your librari's `package.json` file.
-
-✅ Workflow to automatically rebrand entire template based on the name of the repo you create from this template. (As soon as you create a repo from this template, setup workflow is triggered which renames udemy-demo to your repo name and does lots of other fixes to set you up and running.)
-
-✅ With all these features, this readme file contains a quick checklist for you to configure Codecov and other badges, setup your docs website on GitHub pages, etc. See [Checklist](https://github.com/web-dev-classes/udemy-demo/#checklist).
-
-#### Create a library that is
 
 ✅ Fully Treeshakable (import from udemy-demo/client/component)
 
@@ -64,52 +32,8 @@ or
 $ yarn add udemy-demo
 ```
 
-
-
-
-## Getting started:
-
-Click on the `"Use this template"` button to customize it for your next JavaScript/TypeScript/React/Vue/Next.js library or project.
-
-## What's Different?
-
-Compared to the default scaffold from create-turbo, this template offers:
-
-- Unit tests with `vitest`
-- Build setup with `tsup` and `esbuild-react18-useclient` Supports React Server components out of the box
-- **Automatic file generation**
-  - just run `yarn turbo gen` and follow the prompts to auto generate your new component with test file and dependency linking
-  - follow best practices automatically
-- GitHub actions/workflows to auto publish your package when version changes
-- GitHub action/workflow + preinstall scripts to automatically rebrand your repo on creation
-
 ## Step by Step Instructions and Checklist
 
-- [ ] Star [this repo](https://github.com/web-dev-classes/udemy-demo/) so that you and others can find it more easily for your next projects. It also helps me understand that people are using this repo so that I can maintain the repo and the documentation well.
-- [ ] Craete new GitHub repository using this template.
-  - [ ] Click `Use this template` button on top right -> `Create a new repository`
-  - [ ] Set your library name as repository name (This template has automation workflows to customize your repo assuming repo name as library name.)
-  - [ ] Click `Create repository` and wait for the setup workflow to finish rebranding your repo.
-- [ ] Install and setup Node.js and IDE (I prefer VSCode)
-- [ ] Install the recommended VSCode extensions - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Trello Kanban](https://marketplace.visualstudio.com/items?itemName=mayank1513.trello-kanban-task-board)
-- [ ] Install dependencies using `pnpm`
-  - [ ] If you don't have `pnpm` installed, run `npm i -g pnpm` to install `pnpm` -> run `pnpm setup` to set up `pnpm` for global installations
-  - [ ] Run `pnpm i` to install dependencies and `preinstall` script will automatically touch up workflows and create a commit
-  - [ ] Run `pnpm i -g turbo` to install `turbo` globally (Sometime due to `TypeScript` and `Plop` version conflicts code generation requires global `turbo`).
-  - [ ] Run `turbo gen react-component`, and follow prompts to generate server or client components for your library
-    - [ ] Use `snake-case` for your component name - it will be automatically converted to `PascalCase`
-    - [ ] Your component and test files will be created in `**/src/client/` or `**/src/server/` directory depending on whether you choose `client` or `server` component
-- [ ] Set up `CodeCov`
-  - [ ] Visit codecov and setup your repo
-  - [ ] Create repository secrets for `CODECOV_TOKEN`
-- [ ] Set up `CodeClimate`
-  - [ ] Visit CodeClimate and setup your repo
-  - [ ] Create repository secrets for `CC_TEST_REPORTER_ID`
-  - [ ] add `*.test.*` to ignore patterns on the website
-  - [ ] update code climate badge
-- [ ] Add `NPM_AUTH_TOKEN` to repository secrets to automate publishing package
-  - [ ] login to your `npm` account and create automation token
-  - [ ] Create a new repository secrets `NPM_AUTH_TOKEN`
 - [ ] Update description in `lib/udemy-demo/package.json`
 - [ ] Update Repo Stats by visiting and setting up [repobeats](https://repobeats.axiom.co/)
 - [ ] Create your library and update examples
