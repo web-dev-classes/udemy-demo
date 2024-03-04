@@ -3,10 +3,10 @@ import { afterEach, describe, test } from "vitest";
 import { UdemyDemo } from "./udemy-demo";
 
 describe.concurrent("udemy-demo", () => {
-	afterEach(cleanup);
+  afterEach(cleanup);
 
-	test("check if h1 heading exists", ({ expect }) => {
-		render(<UdemyDemo />);
-		expect(screen.getByTestId("udemy-demo-h1").textContent).toBe("Udemy Demo Component");
-	});
+  test("check if h1 heading exists", ({ expect }) => {
+    render(<UdemyDemo />);
+    expect(screen.getByTestId("udemy-demo-h1").textContent).toBe("Udemy Demo Component");
+  });
 });

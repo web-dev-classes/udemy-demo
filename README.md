@@ -32,9 +32,22 @@ or
 $ yarn add udemy-demo
 ```
 
-## Step by Step Instructions and Checklist
+## Usage
 
-- [ ] Optionally deploy your example(s) to Vercel.
+Import the component from `udemy-demo` and use it.
+
+```tsx
+import styles from "./examples.module.css";
+import { UdemyDemo } from "udemy-demo/server";
+
+export default function Examples() {
+  return (
+    <div className={styles.examples}>
+      <UdemyDemo>Wow! It was so simple!</UdemyDemo>
+    </div>
+  );
+}
+```
 
 ### 🤩 Don't forger to star [this repo](https://github.com/web-dev-classes/udemy-demo)!
 
