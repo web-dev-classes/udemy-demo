@@ -1,24 +1,24 @@
 {
   "scope": "Workspace",
   "tasks": {
-    "YjTQGfnTkIkckOvuwTPpq": {
-      "id": "YjTQGfnTkIkckOvuwTPpq",
-      "description": "pnpm i",
-      "columnId": "column-doing"
+    "gY0sC2tvGMo6vHZbbMKQ8": {
+      "id": "gY0sC2tvGMo6vHZbbMKQ8",
+      "description": "Add course outcomes, etc. to UdemyDemo component",
+      "columnId": "column-todo"
     }
   },
   "columns": [
     {
       "id": "column-todo",
       "title": "To do",
-      "tasksIds": []
+      "tasksIds": [
+        "gY0sC2tvGMo6vHZbbMKQ8"
+      ]
     },
     {
       "id": "column-doing",
       "title": "Doing",
-      "tasksIds": [
-        "YjTQGfnTkIkckOvuwTPpq"
-      ]
+      "tasksIds": []
     },
     {
       "id": "column-done",
