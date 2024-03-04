@@ -6,7 +6,7 @@ import * as React from "react";
  */
 export function UdemyDemo() {
   return (
-    <div className="udemy-demo">
+    <div style={{ textAlign: "justify", padding: "20px" }}>
       <h1>Craft Next Gen UI Libraries: React 18 and Next.js 14</h1>
       <h2>
         Equip Yourself to Craft Versatile UI Libraries: Elevate Developer Experiences - Fuel

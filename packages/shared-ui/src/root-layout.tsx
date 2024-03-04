@@ -1,4 +1,3 @@
-import "udemy-demo/styles.css";
 import "./globals.css";
 import "nextjs-themes/styles.css";
 import { ThemeSwitcher } from "nextjs-themes";
