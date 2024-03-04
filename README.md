@@ -1,10 +1,10 @@
-# udemy-demo
+# @web-dev-classes/udemy-demo
 
-[![test](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml/badge.svg)](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/41e19acc440d24fc498e/maintainability)](https://codeclimate.com/github/web-dev-classes/udemy-demo/maintainability) [![codecov](https://codecov.io/gh/web-dev-classes/udemy-demo/graph/badge.svg)](https://codecov.io/gh/web-dev-classes/udemy-demo) [![Version](https://img.shields.io/npm/v/udemy-demo.svg?colorB=green)](https://www.npmjs.com/package/udemy-demo) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/dt/udemy-demo.svg)](https://www.npmjs.com/package/udemy-demo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/udemy-demo) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
+[![test](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml/badge.svg)](https://github.com/web-dev-classes/udemy-demo/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/41e19acc440d24fc498e/maintainability)](https://codeclimate.com/github/web-dev-classes/udemy-demo/maintainability) [![codecov](https://codecov.io/gh/web-dev-classes/udemy-demo/graph/badge.svg)](https://codecov.io/gh/web-dev-classes/udemy-demo) [![Version](https://img.shields.io/npm/v/@web-dev-classes/udemy-demo.svg?colorB=green)](https://www.npmjs.com/package/@web-dev-classes/udemy-demo) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/dt/@web-dev-classes/udemy-demo.svg)](https://www.npmjs.com/package/@web-dev-classes/udemy-demo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@web-dev-classes/udemy-demo) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
 ## Features
 
-✅ Fully Treeshakable (import from udemy-demo/client/component)
+✅ Fully Treeshakable (import from @web-dev-classes/udemy-demo/client/component)
 
 ✅ Full TypeScript Support
 
@@ -17,28 +17,28 @@
 ## Install
 
 ```bash
-$ pnpm add udemy-demo
+$ pnpm add @web-dev-classes/udemy-demo
 ```
 
 or
 
 ```bash
-$ npm install udemy-demo
+$ npm install @web-dev-classes/udemy-demo
 ```
 
 or
 
 ```bash
-$ yarn add udemy-demo
+$ yarn add @web-dev-classes/udemy-demo
 ```
 
 ## Usage
 
-Import the component from `udemy-demo` and use it.
+Import the component from `@web-dev-classes/udemy-demo` and use it.
 
 ```tsx
 import styles from "./examples.module.css";
-import { UdemyDemo } from "udemy-demo/server";
+import { UdemyDemo } from "@web-dev-classes/udemy-demo/server";
 
 export default function Examples() {
   return (
