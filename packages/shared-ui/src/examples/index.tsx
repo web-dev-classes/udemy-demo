@@ -1,5 +1,5 @@
 import styles from "./examples.module.css";
-import { UdemyDemo } from "udemy-demo/server";
+import { UdemyDemo } from "@web-dev-classes/udemy-demo/server";
 
 export default function Examples() {
   return (
