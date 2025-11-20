@@ -73,6 +73,6 @@
     "turborepo-trmplate"
   ],
   "dependencies": {
-    "sass": "^1.94.1"
+    "sass": "^1.94.2"
   }
 }
