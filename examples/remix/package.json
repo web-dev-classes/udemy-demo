@@ -19,8 +19,8 @@
     "@web-dev-classes/udemy-demo": "workspace:*",
     "isbot": "5.1.32",
     "nextjs-themes": "^4.0.6",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
